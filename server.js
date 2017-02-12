@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/page_one', function (req, res) {
-    res.send("Page one is bang on!");
+    res.sendFile(path.join(__dirname, 'ui', 'page_one.html'));
 });
 
 app.get('/page_two', function (req, res) {
