@@ -80,9 +80,6 @@ function createTemplate(data){
               <h4>${heading}</h4>
                 ${content}
             </div>
-            <div>
-                ${content}
-            </div>
           </div>
         </body>
     </html>
