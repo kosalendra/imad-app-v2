@@ -17,7 +17,7 @@ button.onclick = function() {
 		}
 	};
 	//Make the request
-	request.open('GET', 'http://localhost:8080/counter', true);
+	request.open('GET', 'http://http://kosalendra.imad.hasura-app.io/counter', true);
 	request.send(null);
 	
 };
