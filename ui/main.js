@@ -17,7 +17,7 @@ button.onclick = function() {
 		}
 	};
 	//Make the request
-	request.open('GET', 'http://localhost:8080/counter', true);
+	request.open('GET', 'http://kosalendra.cloud.hasura-app.io/counter', true);
 	request.send(null);
 	
 };
@@ -53,7 +53,7 @@ submit.onclick = function()
 	//Make the request
 	var input = document.getElementById('name');
 	var name = input.value;
-	request.open('GET', 'http://localhost:8080/submit-names?name=' + name, true);
+	request.open('GET', 'http://kosalendra.cloud.hasura-app.io/submit-names?name=' + name, true);
 	request.send(null);
 	
 };
