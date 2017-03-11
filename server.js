@@ -102,7 +102,7 @@ app.get('/submit-names', function(req, res){ //submit-name?names =XXXXX
   names.push(name);
   //JSON: JavaScript Object Notation
   res.send(JSON.stringify(names));
-})
+});
 
 var counter = 0;
 app.get('/counter', function(req, res){
